@@ -1,0 +1,8 @@
+# Independent Ollama test alias. Original HF GGUF/manifest remains untouched.
+FROM hf.co/tencent/Hy-MT2-1.8B-GGUF:Q4_K_M
+TEMPLATE """<｜hy_begin▁of▁sentence｜>{{ if .System }}{{ .System }}<｜hy_place▁holder▁no▁3｜>{{ end }}<｜hy_User｜>{{ .Prompt }}<｜hy_Assistant｜>{{ .Response }}"""
+PARAMETER stop "<｜hy_place▁holder▁no▁2｜>"
+PARAMETER temperature 0.7
+PARAMETER top_p 0.6
+PARAMETER top_k 20
+PARAMETER repeat_penalty 1.05

@@ -1,0 +1,5 @@
+# Tower+ 9B is translation-tuned Gemma 2, not the generic Gemma 4.
+# License is non-commercial; see Unbabel/Tower-Plus-9B model card.
+FROM ./Tower-Plus-9B.Q5_K_M.gguf
+PARAMETER temperature 0
+PARAMETER num_ctx 4096

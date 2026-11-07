@@ -1,0 +1,5 @@
+# Dedicated translation GGUF; official Xiaomi prompting via raw=true (no chat format).
+FROM ./MiLMMT-46-4B-v1.0.Q8_0.gguf
+PARAMETER num_ctx 4096
+PARAMETER temperature 0
+PARAMETER top_k 1

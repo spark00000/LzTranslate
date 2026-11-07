@@ -1,0 +1,7 @@
+# Registered from an SHA256-verified dedicated translation GGUF.
+# Official format: Translate this from {source} to Korean:\n{source}: ...\nKorean:
+# Benchmarks use /api/generate with raw=true, so no chat-style prompt is injected.
+FROM ./MiLMMT-46-12B-v1.0.Q5_K_M.gguf
+PARAMETER num_ctx 4096
+PARAMETER temperature 0
+PARAMETER top_k 1

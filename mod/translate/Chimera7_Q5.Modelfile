@@ -1,0 +1,5 @@
+# Hunyuan-MT-Chimera is a translation ENSEMBLE, NOT a standalone source-to-target translator.
+# Its official prompt requires source text plus >=2 candidate target translations.
+FROM ./Hunyuan-MT-Chimera-7B.Q5_K_M.gguf
+PARAMETER temperature 0
+PARAMETER num_ctx 4096

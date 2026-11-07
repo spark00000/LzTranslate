@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="885" viewBox="0 0 1600 885">
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="35" y="55" fill="#152b43" font-family="Segoe UI,Arial" font-size="33" font-weight="bold">LzTranslate | WMT24++ English to Korean</text>
+<text x="35" y="90" fill="#55667b" font-family="Segoe UI,Arial" font-size="19">76 identical long-form items | 9 measured models | higher is better</text>
+<rect x="25" y="113" width="1545" height="64" rx="9" fill="#e7eef6"/>
+<text x="39" y="154" fill="#192f47" font-family="Segoe UI,Arial" font-size="21" font-weight="bold">Model / quantization</text>
+<rect x="458" y="134" width="20" height="20" rx="3" fill="#008a98"/>
+<text x="487" y="152" fill="#192f47" font-family="Segoe UI,Arial" font-size="20" font-weight="bold">COMET-DA (0.84-0.91)</text>
+<rect x="1008" y="134" width="20" height="20" rx="3" fill="#e56b1c"/>
+<text x="1038" y="152" fill="#192f47" font-family="Segoe UI,Arial" font-size="20" font-weight="bold">chrF++ (0-40)</text>
+<rect x="25" y="183" width="1545" height="61" rx="4" fill="#f0f5f9"/>
+<rect x="25" y="183" width="1545" height="61" rx="5" fill="none" stroke="#008a98" stroke-width="2.4"/>
+<text x="39" y="220" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="bold">1. Hy-MT2 30B-A3B Q4</text>
+<rect x="458" y="197" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="197" width="253" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="220" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.896416</text>
+<rect x="1008" y="197" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="197" width="279" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="220" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">35.53</text>
+<text x="39" y="286" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">2. Hy-MT2 7B Q4</text>
+<rect x="458" y="263" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="263" width="241" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="286" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.893725</text>
+<rect x="1008" y="263" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="263" width="288" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="286" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">36.64</text>
+<rect x="25" y="315" width="1545" height="61" rx="4" fill="#f0f5f9"/>
+<text x="39" y="352" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">3. Index-Translate 9B Q8</text>
+<rect x="458" y="329" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="329" width="241" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="352" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.893643</text>
+<rect x="1008" y="329" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="329" width="298" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="352" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">37.84</text>
+<text x="39" y="418" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">4. TranslateGemma 27B Q4</text>
+<rect x="458" y="395" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="395" width="234" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="418" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.892214</text>
+<rect x="1008" y="395" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="395" width="272" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="418" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">34.56</text>
+<rect x="25" y="447" width="1545" height="61" rx="4" fill="#f0f5f9"/>
+<text x="39" y="484" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">5. Index-Translate 35B Q4</text>
+<rect x="458" y="461" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="461" width="232" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="484" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.891705</text>
+<rect x="1008" y="461" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="461" width="293" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="484" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">37.33</text>
+<text x="39" y="550" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">6. Gemma 4 26B</text>
+<rect x="458" y="527" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="527" width="229" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="550" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.891022</text>
+<rect x="1008" y="527" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="527" width="293" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="550" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">37.27</text>
+<rect x="25" y="579" width="1545" height="61" rx="4" fill="#f0f5f9"/>
+<text x="39" y="616" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">7. TranslateGemma 27B Q6</text>
+<rect x="458" y="593" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="593" width="228" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="616" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.890856</text>
+<rect x="1008" y="593" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="593" width="281" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="616" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">35.74</text>
+<text x="39" y="682" fill="#152c44" font-family="Segoe UI,Arial" font-size="18" font-weight="normal">8. TranslateGemma 12B Q8</text>
+<rect x="458" y="659" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="659" width="219" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="682" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.888830</text>
+<rect x="1008" y="659" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="659" width="259" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="682" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">33.01</text>
+<rect x="25" y="711" width="1545" height="61" rx="4" fill="#f0f5f9"/>
+<text x="39" y="748" fill="#5b327f" font-family="Segoe UI,Arial" font-size="18" font-weight="bold">9. EXAONE 3 InstructTrans 7.8B Q8</text>
+<rect x="458" y="725" width="315" height="26" rx="4" fill="#d9e8eb"/>
+<rect x="458" y="725" width="61" height="26" rx="4" fill="#008a98"/>
+<text x="783" y="748" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">0.853622</text>
+<rect x="1008" y="725" width="315" height="26" rx="4" fill="#f8e0d2"/>
+<rect x="1008" y="725" width="253" height="26" rx="4" fill="#e56b1c"/>
+<text x="1333" y="748" fill="#152c44" font-family="Segoe UI,Arial" font-size="19" font-weight="bold">32.17</text>
+<path d="M25 815 H1570" stroke="#b9c8d4" stroke-width="1.6"/>
+<text x="36" y="843" font-family="Segoe UI,Arial" fill="#344b61" font-size="16">COMET-DA: semantic quality estimate; axis zoomed from 0.84 to 0.91.  chrF++: reference similarity (0 to 40).</text>
+<text x="36" y="867" font-family="Segoe UI,Arial" fill="#344b61" font-size="15">EXAONE3 InstructTrans: third-party Korean translation fine-tune; Q8, temperature=0, repeat_penalty=1.15.</text>
+</svg>

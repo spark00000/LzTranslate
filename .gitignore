@@ -1,0 +1,17 @@
+_pArc/
+.runtime/
+__pycache__/
+*.pyc
+*.pyo
+*.srt
+*.jsonl
+*.trace
+*.log
+*.report.json
+.env
+.env.*
+*.pem
+*.key
+*.p12
+.venv/
+AGENTS.md
